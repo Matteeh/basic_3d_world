@@ -1,0 +1,25 @@
+{
+  "name": "basic_3d_world",
+  "version": "1.0.0",
+  "description": "Render 3D world with three js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "author": "Mathias Rahikainen",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@types/three": "^0.126.1",
+    "three": "^0.126.1"
+  }
+}
