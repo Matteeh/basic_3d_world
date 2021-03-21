@@ -67,8 +67,8 @@ class BasicWorldDemo {
       "./assets/skybox/xneg.png",
       "./assets/skybox/ypos.png",
       "./assets/skybox/yneg.png",
-      "./assets/skybox/zneg.png",
       "./assets/skybox/zpos.png",
+      "./assets/skybox/zneg.png",
     ]);
     this.scene.background = texture;
 
