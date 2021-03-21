@@ -63,12 +63,12 @@ class BasicWorldDemo {
     controls.update();
     const loader = new THREE.CubeTextureLoader();
     const texture = loader.load([
-      "./skybox/xpos.png",
-      "./skybox/xneg.png",
-      "./skybox/ypos.png",
-      "./skybox/yneg.png",
-      "./skybox/zneg.png",
-      "./skybox/zpos.png",
+      "./assets/skybox/xpos.png",
+      "./assets/skybox/xneg.png",
+      "./assets/skybox/ypos.png",
+      "./assets/skybox/yneg.png",
+      "./assets/skybox/zneg.png",
+      "./assets/skybox/zpos.png",
     ]);
     this.scene.background = texture;
 
